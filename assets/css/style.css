@@ -1,0 +1,27 @@
+body{
+    color: white;
+}
+
+#bgvid{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header {
+    position: relative;
+    z-index: 1; /* Ensure the header is on top of the video */
+    background-color: transparent !important;
+}
+
+.navbar, .container-fluid {
+    background-color: transparent !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Set the color of the nav links */
+}
